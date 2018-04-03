@@ -136,7 +136,7 @@
 #define EXTRUDERS 1                                                            
 
 // Generally expected filament diameter (1.75, 2.85, 3.0, ...). Used for Volumetric, Filament Width Sensor, etc.
-//#define DEFAULT_NOMINAL_FILAMENT_DIA 1.75 XX
+//#define DEFAULT_NOMINAL_FILAMENT_DIA 1.75 
 
 // For Cyclops or any "multi-extruder" that shares a single nozzle.           
 //#define SINGLENOZZLE
@@ -324,7 +324,7 @@
 // When temperature exceeds max temp, your heater will be switched off.
 // This feature exists to protect your hotend from overheating accidentally, but *NOT* from thermistor short/failure!
 // You should use MINTEMP for thermistor short/failure protection.
-#define HEATER_0_MAXTEMP 260            //xx
+#define HEATER_0_MAXTEMP 260            
 #define HEATER_1_MAXTEMP 275
 #define HEATER_2_MAXTEMP 275
 #define HEATER_3_MAXTEMP 275
@@ -372,7 +372,7 @@
 // If your configuration is significantly different than this and you don't understand the issues involved, you probably
 // shouldn't use bed PID until someone else verifies your hardware works.
 // If this is enabled, find your own PID constants below.
-#define PIDTEMPBED           // <------XX
+#define PIDTEMPBED           
 
 //#define BED_LIMIT_SWITCHING
 
@@ -762,7 +762,7 @@
 #define X_BED_SIZE 210
 #define Y_BED_SIZE 210
 
-// Travel limits (mm) after homing, corresponding to endstop positions. <----------------------XX
+// Travel limits (mm) after homing, corresponding to endstop positions. 
 #define X_MIN_POS -5
 #define Y_MIN_POS 0
 #define Z_MIN_POS 0
